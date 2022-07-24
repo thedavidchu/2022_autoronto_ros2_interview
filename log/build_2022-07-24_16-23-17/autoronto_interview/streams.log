@@ -1,0 +1,26 @@
+[0.020s] Invoking command in '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview -- -j4 -l4
+[0.086s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/davidchus_test.dir/src/test.cpp.o[0m
+[5.597s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.598s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.598s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[5.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.600s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.601s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.601s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.602s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.603s]                  from [01m[K/home/theda/dev_ws/src/autoronto_interview/src/solution.cpp:11[m[K:
+[5.603s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/solution.cpp:[m[K In member function ‘[01m[Kvoid Solution::timer_callback()[m[K’:
+[5.603s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/solution.cpp:82:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kindices[m[K’ was not declared in this scope; did you mean ‘[01m[Knice[m[K’?
+[5.604s]    82 |                 static_cast<int>([01;31m[Kindices[m[K.first), static_cast<int>(indices.second));
+[5.604s]       |                                  [01;31m[K^~~~~~~[m[K
+[12.038s] gmake[2]: *** [CMakeFiles/solution.dir/build.make:76: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[12.038s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/solution.dir/all] Error 2
+[12.039s] gmake[1]: *** Waiting for unfinished jobs....
+[16.817s] [ 75%] [32m[1mLinking CXX executable davidchus_test[0m
+[17.658s] [ 75%] Built target davidchus_test
+[17.659s] gmake: *** [Makefile:146: all] Error 2
+[17.662s] Invoked command in '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview -- -j4 -l4

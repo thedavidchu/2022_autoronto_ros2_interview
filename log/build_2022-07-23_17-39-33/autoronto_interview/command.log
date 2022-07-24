@@ -1,0 +1,2 @@
+Invoking command in '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview -- -j4 -l4
+Invoked command in '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview -- -j4 -l4

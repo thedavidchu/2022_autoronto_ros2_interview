@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.002145] (autoronto_interview) JobQueued: {'identifier': 'autoronto_interview', 'dependencies': OrderedDict()}
+[0.002441] (autoronto_interview) JobStarted: {'identifier': 'autoronto_interview'}
+[0.013406] (autoronto_interview) JobProgress: {'identifier': 'autoronto_interview', 'progress': 'cmake'}
+[0.013941] (autoronto_interview) JobProgress: {'identifier': 'autoronto_interview', 'progress': 'build'}
+[0.015172] (autoronto_interview) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview', '--', '-j4', '-l4'], 'cwd': '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theda'), ('GIT_ASKPASS', '/home/theda/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/theda'), ('OLDPWD', '/home/theda/dev_ws/src/autoronto_interview'), ('TERM_PROGRAM_VERSION', '1.69.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-886b51d9-8630-4456-9a83-3eac818036a3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/theda/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/theda/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/theda/dev_ws/src/autoronto_interview/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'theda'), ('NAME', 'LAPTOP-7OEUJ8HK'), ('WSL_INTEROP', '/run/WSL/141_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/theda/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/home/theda/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Users/theda/AppData/Local/Programs/Python:/mnt/c/Users/theda/AppData/Local/Programs/Python/Scripts:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Users/theda/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/theda/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/theda/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/theda/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/theda/AppData/Local/Microsoft/WindowsApps:/mnt/c/Modeltech_pe_edu_10.4a/win32pe_edu:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2020.2.2/bin:/mnt/c/Program Files/Sublime Text:/mnt/c/Users/theda/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-a6bbc1db54.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.061873] (autoronto_interview) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target davidchus_test\x1b[0m\n'}
+[0.075111] (autoronto_interview) StdoutLine: {'line': b'[ 50%] Built target solution\n'}
+[0.082650] (autoronto_interview) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/davidchus_test.dir/src/test.cpp.o\x1b[0m\n'}
+[0.097670] (-) TimerEvent: {}
+[0.198107] (-) TimerEvent: {}
+[0.298577] (-) TimerEvent: {}
+[0.399073] (-) TimerEvent: {}
+[0.499677] (-) TimerEvent: {}
+[0.600171] (-) TimerEvent: {}
+[0.700705] (-) TimerEvent: {}
+[0.801237] (-) TimerEvent: {}
+[0.901848] (-) TimerEvent: {}
+[1.002304] (-) TimerEvent: {}
+[1.102721] (-) TimerEvent: {}
+[1.203164] (-) TimerEvent: {}
+[1.303625] (-) TimerEvent: {}
+[1.404144] (-) TimerEvent: {}
+[1.504647] (-) TimerEvent: {}
+[1.605151] (-) TimerEvent: {}
+[1.705595] (-) TimerEvent: {}
+[1.806039] (-) TimerEvent: {}
+[1.906564] (-) TimerEvent: {}
+[2.007073] (-) TimerEvent: {}
+[2.107555] (-) TimerEvent: {}
+[2.208061] (-) TimerEvent: {}
+[2.308587] (-) TimerEvent: {}
+[2.409093] (-) TimerEvent: {}
+[2.509502] (-) TimerEvent: {}
+[2.609923] (-) TimerEvent: {}
+[2.710398] (-) TimerEvent: {}
+[2.810897] (-) TimerEvent: {}
+[2.911370] (-) TimerEvent: {}
+[3.011817] (-) TimerEvent: {}
+[3.112280] (-) TimerEvent: {}
+[3.212731] (-) TimerEvent: {}
+[3.313231] (-) TimerEvent: {}
+[3.413711] (-) TimerEvent: {}
+[3.514204] (-) TimerEvent: {}
+[3.614670] (-) TimerEvent: {}
+[3.715208] (-) TimerEvent: {}
+[3.815749] (-) TimerEvent: {}
+[3.916242] (-) TimerEvent: {}
+[4.016716] (-) TimerEvent: {}
+[4.117213] (-) TimerEvent: {}
+[4.217726] (-) TimerEvent: {}
+[4.318279] (-) TimerEvent: {}
+[4.418804] (-) TimerEvent: {}
+[4.519298] (-) TimerEvent: {}
+[4.619783] (-) TimerEvent: {}
+[4.720244] (-) TimerEvent: {}
+[4.820671] (-) TimerEvent: {}
+[4.921171] (-) TimerEvent: {}
+[5.021665] (-) TimerEvent: {}
+[5.122174] (-) TimerEvent: {}
+[5.222663] (-) TimerEvent: {}
+[5.323159] (-) TimerEvent: {}
+[5.423624] (-) TimerEvent: {}
+[5.524057] (-) TimerEvent: {}
+[5.624542] (-) TimerEvent: {}
+[5.725087] (-) TimerEvent: {}
+[5.825532] (-) TimerEvent: {}
+[5.926017] (-) TimerEvent: {}
+[6.026531] (-) TimerEvent: {}
+[6.127023] (-) TimerEvent: {}
+[6.227584] (-) TimerEvent: {}
+[6.328082] (-) TimerEvent: {}
+[6.428606] (-) TimerEvent: {}
+[6.529198] (-) TimerEvent: {}
+[6.629683] (-) TimerEvent: {}
+[6.730164] (-) TimerEvent: {}
+[6.830648] (-) TimerEvent: {}
+[6.931143] (-) TimerEvent: {}
+[7.031622] (-) TimerEvent: {}
+[7.132129] (-) TimerEvent: {}
+[7.232571] (-) TimerEvent: {}
+[7.333090] (-) TimerEvent: {}
+[7.433589] (-) TimerEvent: {}
+[7.534122] (-) TimerEvent: {}
+[7.634599] (-) TimerEvent: {}
+[7.735122] (-) TimerEvent: {}
+[7.835619] (-) TimerEvent: {}
+[7.936143] (-) TimerEvent: {}
+[8.036666] (-) TimerEvent: {}
+[8.137252] (-) TimerEvent: {}
+[8.237800] (-) TimerEvent: {}
+[8.338236] (-) TimerEvent: {}
+[8.438748] (-) TimerEvent: {}
+[8.539270] (-) TimerEvent: {}
+[8.639855] (-) TimerEvent: {}
+[8.740322] (-) TimerEvent: {}
+[8.840702] (-) TimerEvent: {}
+[8.941202] (-) TimerEvent: {}
+[9.041676] (-) TimerEvent: {}
+[9.142147] (-) TimerEvent: {}
+[9.242686] (-) TimerEvent: {}
+[9.343218] (-) TimerEvent: {}
+[9.443680] (-) TimerEvent: {}
+[9.544188] (-) TimerEvent: {}
+[9.644666] (-) TimerEvent: {}
+[9.745170] (-) TimerEvent: {}
+[9.845675] (-) TimerEvent: {}
+[9.946248] (-) TimerEvent: {}
+[10.046679] (-) TimerEvent: {}
+[10.147195] (-) TimerEvent: {}
+[10.247982] (-) TimerEvent: {}
+[10.348445] (-) TimerEvent: {}
+[10.448964] (-) TimerEvent: {}
+[10.549458] (-) TimerEvent: {}
+[10.649941] (-) TimerEvent: {}
+[10.750424] (-) TimerEvent: {}
+[10.850939] (-) TimerEvent: {}
+[10.951441] (-) TimerEvent: {}
+[11.051936] (-) TimerEvent: {}
+[11.152443] (-) TimerEvent: {}
+[11.252891] (-) TimerEvent: {}
+[11.353363] (-) TimerEvent: {}
+[11.453847] (-) TimerEvent: {}
+[11.554460] (-) TimerEvent: {}
+[11.655002] (-) TimerEvent: {}
+[11.755502] (-) TimerEvent: {}
+[11.855907] (-) TimerEvent: {}
+[11.956353] (-) TimerEvent: {}
+[12.056822] (-) TimerEvent: {}
+[12.084148] (autoronto_interview) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable davidchus_test\x1b[0m\n'}
+[12.156955] (-) TimerEvent: {}
+[12.257538] (-) TimerEvent: {}
+[12.358239] (-) TimerEvent: {}
+[12.458805] (-) TimerEvent: {}
+[12.559271] (-) TimerEvent: {}
+[12.659823] (-) TimerEvent: {}
+[12.736544] (autoronto_interview) StdoutLine: {'line': b'[100%] Built target davidchus_test\n'}
+[12.746957] (autoronto_interview) CommandEnded: {'returncode': 0}
+[12.759990] (-) TimerEvent: {}
+[12.774234] (autoronto_interview) JobProgress: {'identifier': 'autoronto_interview', 'progress': 'install'}
+[12.783731] (autoronto_interview) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview'], 'cwd': '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theda'), ('GIT_ASKPASS', '/home/theda/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/theda'), ('OLDPWD', '/home/theda/dev_ws/src/autoronto_interview'), ('TERM_PROGRAM_VERSION', '1.69.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-886b51d9-8630-4456-9a83-3eac818036a3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/theda/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/theda/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/theda/dev_ws/src/autoronto_interview/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'theda'), ('NAME', 'LAPTOP-7OEUJ8HK'), ('WSL_INTEROP', '/run/WSL/141_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/theda/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/home/theda/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Users/theda/AppData/Local/Programs/Python:/mnt/c/Users/theda/AppData/Local/Programs/Python/Scripts:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Users/theda/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/theda/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/theda/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/theda/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/theda/AppData/Local/Microsoft/WindowsApps:/mnt/c/Modeltech_pe_edu_10.4a/win32pe_edu:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2020.2.2/bin:/mnt/c/Program Files/Sublime Text:/mnt/c/Users/theda/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-a6bbc1db54.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[12.791502] (autoronto_interview) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.792339] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/lib/autoronto_interview/solution\n'}
+[12.793585] (autoronto_interview) StdoutLine: {'line': b'-- Installing: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/lib/autoronto_interview/davidchus_test\n'}
+[12.799140] (autoronto_interview) StdoutLine: {'line': b'-- Set runtime path of "/home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/lib/autoronto_interview/davidchus_test" to ""\n'}
+[12.799584] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/ament_index/resource_index/package_run_dependencies/autoronto_interview\n'}
+[12.799787] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/ament_index/resource_index/parent_prefix_path/autoronto_interview\n'}
+[12.799941] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/environment/ament_prefix_path.sh\n'}
+[12.800252] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/environment/ament_prefix_path.dsv\n'}
+[12.800906] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/environment/path.sh\n'}
+[12.801209] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/environment/path.dsv\n'}
+[12.801415] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/local_setup.bash\n'}
+[12.801594] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/local_setup.sh\n'}
+[12.801772] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/local_setup.zsh\n'}
+[12.801941] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/local_setup.dsv\n'}
+[12.802111] (autoronto_interview) StdoutLine: {'line': b'-- Installing: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/package.dsv\n'}
+[12.803681] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/ament_index/resource_index/packages/autoronto_interview\n'}
+[12.804665] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/cmake/autoronto_interviewConfig.cmake\n'}
+[12.805017] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/cmake/autoronto_interviewConfig-version.cmake\n'}
+[12.806770] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/package.xml\n'}
+[12.809466] (autoronto_interview) CommandEnded: {'returncode': 0}
+[12.861959] (-) TimerEvent: {}
+[12.866924] (autoronto_interview) JobEnded: {'identifier': 'autoronto_interview', 'rc': 0}
+[12.870827] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+source;share/autoronto_interview/hook/cmake_prefix_path.ps1
+source;share/autoronto_interview/hook/cmake_prefix_path.dsv
+source;share/autoronto_interview/hook/cmake_prefix_path.sh
+source;share/autoronto_interview/local_setup.bash
+source;share/autoronto_interview/local_setup.dsv
+source;share/autoronto_interview/local_setup.ps1
+source;share/autoronto_interview/local_setup.sh
+source;share/autoronto_interview/local_setup.zsh

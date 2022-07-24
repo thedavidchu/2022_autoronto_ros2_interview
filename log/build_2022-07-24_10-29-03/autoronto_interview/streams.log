@@ -1,0 +1,147 @@
+[0.021s] Invoking command in '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview -- -j4 -l4
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target davidchus_test[0m
+[0.091s] [ 50%] Built target solution
+[0.097s] [ 75%] [32mBuilding CXX object CMakeFiles/davidchus_test.dir/src/test.cpp.o[0m
+[3.886s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:56:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[3.886s]    56 | }
+[3.887s]       |  [01;31m[K^[m[K
+[3.887s]       |  [32m[K;[m[K
+[3.904s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:[m[K In constructor ‘[01m[KTest::Test()[m[K’:
+[3.905s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:21:94:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > > >[m[K’} and ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> > >[m[K’)
+[3.905s]    21 |         input_publisher_ = this->create_publisher<std_msgs::msg::Int8MultiArray>("/input", 10[01;31m[K)[m[K;
+[3.905s]       |                                                                                              [01;31m[K^[m[K
+[3.906s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.906s]                  from [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:7[m[K:
+[3.906s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > >][m[K’
+[3.906s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[3.907s]       |         [01;36m[K^~~~~~~~[m[K
+[3.907s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.907s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> > >&; _Tp = rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > >][m[K’:
+[3.908s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> >][m[K’
+[3.908s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:21:94:[m[K   required from here
+[3.908s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > > >&>[m[K’
+[3.909s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.909s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[3.909s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > >][m[K’
+[3.910s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[3.910s]       |         [01;36m[K^~~~~~~~[m[K
+[3.910s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.911s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:21:94:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[3.911s]    21 |         input_publisher_ = this->create_publisher<std_msgs::msg::Int8MultiArray>("/input", 10[01;36m[K)[m[K;
+[3.911s]       |                                                                                              [01;36m[K^[m[K
+[3.912s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.912s]                  from [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:7[m[K:
+[3.915s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > >][m[K’
+[3.915s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[3.915s]       |         [01;36m[K^~~~~~~~[m[K
+[3.916s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.917s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> > >; _Tp = rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > >][m[K’:
+[3.919s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> >][m[K’
+[3.919s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:21:94:[m[K   required from here
+[3.920s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > > >&>[m[K’
+[3.920s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.920s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[3.920s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > >][m[K’
+[3.920s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[3.920s]       |         [01;36m[K^~~~~~~~[m[K
+[3.921s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.921s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:21:94:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[3.921s]    21 |         input_publisher_ = this->create_publisher<std_msgs::msg::Int8MultiArray>("/input", 10[01;36m[K)[m[K;
+[3.921s]       |                                                                                              [01;36m[K^[m[K
+[3.921s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.921s]                  from [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:7[m[K:
+[3.921s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > >][m[K’
+[3.921s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[3.922s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.922s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > > >&[m[K’
+[3.922s]   359 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[3.922s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.922s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > >][m[K’
+[3.922s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[3.922s]       |       [01;36m[K^~~~~~~~[m[K
+[3.922s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8MultiArray_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > > >&&[m[K’
+[3.923s]   383 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[3.923s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[3.923s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:22:86:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > > >[m[K’} and ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> >, std::allocator<void> > >[m[K’)
+[3.923s]    22 |         target_publisher_ = this->create_publisher<std_msgs::msg::Int8>("/target", 10[01;31m[K)[m[K;
+[3.923s]       |                                                                                      [01;31m[K^[m[K
+[3.923s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.923s]                  from [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:7[m[K:
+[3.924s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > >][m[K’
+[3.924s]   363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[3.924s]       |         [01;36m[K^~~~~~~~[m[K
+[3.924s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.924s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> >, std::allocator<void> > >&; _Tp = rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > >][m[K’:
+[3.924s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:363:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> >, std::allocator<void> >][m[K’
+[3.924s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:22:86:[m[K   required from here
+[3.924s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > > >&>[m[K’
+[3.925s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.925s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[3.925s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > >][m[K’
+[3.925s]   374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[3.925s]       |         [01;36m[K^~~~~~~~[m[K
+[3.925s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.925s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:22:86:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[3.926s]    22 |         target_publisher_ = this->create_publisher<std_msgs::msg::Int8>("/target", 10[01;36m[K)[m[K;
+[3.926s]       |                                                                                      [01;36m[K^[m[K
+[3.926s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.926s]                  from [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:7[m[K:
+[3.926s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > >][m[K’
+[3.926s]   391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[3.927s]       |         [01;36m[K^~~~~~~~[m[K
+[3.927s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.927s] /usr/include/c++/11/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> >, std::allocator<void> > >; _Tp = rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > >][m[K’:
+[3.927s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:391:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> >, std::allocator<void> >][m[K’
+[3.928s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:22:86:[m[K   required from here
+[3.928s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:130:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > > >&>[m[K’
+[3.931s]   130 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.932s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[3.932s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > >][m[K’
+[3.932s]   399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[3.932s]       |         [01;36m[K^~~~~~~~[m[K
+[3.932s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.932s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:22:86:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[3.933s]    22 |         target_publisher_ = this->create_publisher<std_msgs::msg::Int8>("/target", 10[01;36m[K)[m[K;
+[3.933s]       |                                                                                      [01;36m[K^[m[K
+[3.933s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[3.933s]                  from [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:7[m[K:
+[3.933s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > >][m[K’
+[3.933s]   359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[3.933s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.933s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:359:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > > >&[m[K’
+[3.933s]   359 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[3.934s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.934s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > >][m[K’
+[3.934s]   383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[3.934s]       |       [01;36m[K^~~~~~~~[m[K
+[3.934s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:383:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Int8_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > > >&&[m[K’
+[3.934s]   383 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[3.934s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[3.937s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[3.938s]    23 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[3.938s]       |         [01;31m[K^~~~~~[m[K
+[3.938s]       |         [32m[Ktimer_t[m[K
+[3.939s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:24:13:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[3.939s]    24 |             [01;31m[K1000ms[m[K, std::bind(&Test::timer_callback, this));
+[3.940s]       |             [01;31m[K^~~~~~[m[K
+[3.946s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:[m[K In member function ‘[01m[Kvoid Test::timer_callback()[m[K’:
+[3.946s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:30:30:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >[m[K’
+[3.947s]    30 |         input_timer_callback([01;31m[Kiteration[m[K);
+[3.948s]       |                              [01;31m[K^~~~~~~~~[m[K
+[3.948s]       |                              [01;31m[K|[m[K
+[3.949s]       |                              [01;31m[Kstd::size_t {aka long unsigned int}[m[K
+[3.949s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:37:62:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid Test::input_timer_callback(std::vector<signed char, std::allocator<signed char> >)[m[K’
+[3.949s]    37 |     void input_timer_callback([01;36m[Kconst std::vector<std::int8_t> input_vec[m[K) {
+[3.950s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.950s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:[m[K In member function ‘[01m[Kvoid Test::input_timer_callback(std::vector<signed char, std::allocator<signed char> >)[m[K’:
+[3.951s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:42:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass rclcpp::Subscription<std_msgs::msg::Int8MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+[3.951s]    42 |         input_publisher_->[01;31m[Kpublish[m[K(input);
+[3.951s]       |                           [01;31m[K^~~~~~~[m[K
+[3.952s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:[m[K In member function ‘[01m[Kvoid Test::target_timer_callback(int8_t)[m[K’:
+[3.952s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:51:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass rclcpp::Subscription<std_msgs::msg::Int8_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+[3.952s]    51 |         target_publisher_->[01;31m[Kpublish[m[K(target);
+[3.953s]       |                            [01;31m[K^~~~~~~[m[K
+[5.490s] gmake[2]: *** [CMakeFiles/davidchus_test.dir/build.make:76: CMakeFiles/davidchus_test.dir/src/test.cpp.o] Error 1
+[5.490s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/davidchus_test.dir/all] Error 2
+[5.490s] gmake: *** [Makefile:146: all] Error 2
+[5.493s] Invoked command in '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview -- -j4 -l4

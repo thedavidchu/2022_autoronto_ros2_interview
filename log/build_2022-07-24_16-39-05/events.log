@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.001919] (autoronto_interview) JobQueued: {'identifier': 'autoronto_interview', 'dependencies': OrderedDict()}
+[0.002015] (autoronto_interview) JobStarted: {'identifier': 'autoronto_interview'}
+[0.024114] (autoronto_interview) JobProgress: {'identifier': 'autoronto_interview', 'progress': 'cmake'}
+[0.025163] (autoronto_interview) JobProgress: {'identifier': 'autoronto_interview', 'progress': 'build'}
+[0.026110] (autoronto_interview) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview', '--', '-j4', '-l4'], 'cwd': '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theda'), ('GIT_ASKPASS', '/home/theda/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/theda'), ('OLDPWD', '/home/theda/dev_ws/src/autoronto_interview'), ('TERM_PROGRAM_VERSION', '1.69.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-886b51d9-8630-4456-9a83-3eac818036a3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/theda/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/theda/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/theda/dev_ws/src/autoronto_interview/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'theda'), ('NAME', 'LAPTOP-7OEUJ8HK'), ('WSL_INTEROP', '/run/WSL/141_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/theda/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/home/theda/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Users/theda/AppData/Local/Programs/Python:/mnt/c/Users/theda/AppData/Local/Programs/Python/Scripts:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Users/theda/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/theda/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/theda/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/theda/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/theda/AppData/Local/Microsoft/WindowsApps:/mnt/c/Modeltech_pe_edu_10.4a/win32pe_edu:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2020.2.2/bin:/mnt/c/Program Files/Sublime Text:/mnt/c/Users/theda/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-a6bbc1db54.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.084540] (autoronto_interview) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target solution\x1b[0m\n'}
+[0.084909] (autoronto_interview) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target davidchus_test\x1b[0m\n'}
+[0.099425] (-) TimerEvent: {}
+[0.108821] (autoronto_interview) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[0.113135] (autoronto_interview) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/davidchus_test.dir/src/test.cpp.o\x1b[0m\n'}
+[0.199603] (-) TimerEvent: {}
+[0.300087] (-) TimerEvent: {}
+[0.400574] (-) TimerEvent: {}
+[0.511726] (-) TimerEvent: {}
+[0.612311] (-) TimerEvent: {}
+[0.713351] (-) TimerEvent: {}
+[0.813834] (-) TimerEvent: {}
+[0.914359] (-) TimerEvent: {}
+[1.014894] (-) TimerEvent: {}
+[1.115380] (-) TimerEvent: {}
+[1.215887] (-) TimerEvent: {}
+[1.316434] (-) TimerEvent: {}
+[1.416943] (-) TimerEvent: {}
+[1.517469] (-) TimerEvent: {}
+[1.618009] (-) TimerEvent: {}
+[1.718539] (-) TimerEvent: {}
+[1.819049] (-) TimerEvent: {}
+[1.919530] (-) TimerEvent: {}
+[2.019995] (-) TimerEvent: {}
+[2.120474] (-) TimerEvent: {}
+[2.220977] (-) TimerEvent: {}
+[2.321400] (-) TimerEvent: {}
+[2.421907] (-) TimerEvent: {}
+[2.522381] (-) TimerEvent: {}
+[2.622840] (-) TimerEvent: {}
+[2.723323] (-) TimerEvent: {}
+[2.823779] (-) TimerEvent: {}
+[2.924272] (-) TimerEvent: {}
+[3.024864] (-) TimerEvent: {}
+[3.125380] (-) TimerEvent: {}
+[3.225880] (-) TimerEvent: {}
+[3.326388] (-) TimerEvent: {}
+[3.426790] (-) TimerEvent: {}
+[3.527178] (-) TimerEvent: {}
+[3.627653] (-) TimerEvent: {}
+[3.728150] (-) TimerEvent: {}
+[3.828592] (-) TimerEvent: {}
+[3.929050] (-) TimerEvent: {}
+[4.029491] (-) TimerEvent: {}
+[4.129967] (-) TimerEvent: {}
+[4.230429] (-) TimerEvent: {}
+[4.330889] (-) TimerEvent: {}
+[4.400473] (autoronto_interview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/solution.cpp:15\x1b[m\x1b[K:\n'}
+[4.400766] (autoronto_interview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/find_indices.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid test_case_find_indices_input(std::vector<signed char, std::allocator<signed char> >&, int8_t, std::vector<signed char, std::allocator<signed char> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.400945] (autoronto_interview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/find_indices.hpp:56:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktest_case_find_indices_output\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktest_case_find_indices_input\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.401099] (autoronto_interview) StderrLine: {'line': b'   56 |     \x1b[01;31m\x1b[Ktest_case_find_indices_output\x1b[m\x1b[K(oracle, output);\n'}
+[4.401216] (autoronto_interview) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.401372] (autoronto_interview) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktest_case_find_indices_input\x1b[m\x1b[K\n'}
+[4.431081] (-) TimerEvent: {}
+[4.478141] (autoronto_interview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:14\x1b[m\x1b[K:\n'}
+[4.478443] (autoronto_interview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/find_indices.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid test_case_find_indices_input(std::vector<signed char, std::allocator<signed char> >&, int8_t, std::vector<signed char, std::allocator<signed char> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.478637] (autoronto_interview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/find_indices.hpp:56:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktest_case_find_indices_output\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktest_case_find_indices_input\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.478812] (autoronto_interview) StderrLine: {'line': b'   56 |     \x1b[01;31m\x1b[Ktest_case_find_indices_output\x1b[m\x1b[K(oracle, output);\n'}
+[4.478977] (autoronto_interview) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.479141] (autoronto_interview) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktest_case_find_indices_input\x1b[m\x1b[K\n'}
+[4.493100] (autoronto_interview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.493371] (autoronto_interview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:67:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kin-class initialization of static data member \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<std::pair<std::vector<signed char, std::allocator<signed char> >, signed char> > Test::data_\x1b[m\x1b[K\xe2\x80\x99 of non-literal type\n'}
+[4.493535] (autoronto_interview) StderrLine: {'line': b'   67 |     static const std::vector<std::pair<std::vector<std::int8_t>, std::int8_t>> \x1b[01;31m\x1b[Kdata_\x1b[m\x1b[K = {\n'}
+[4.493680] (autoronto_interview) StderrLine: {'line': b'      |                                                                                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.503166] (autoronto_interview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:77:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemporary of non-literal type \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<std::pair<std::vector<signed char, std::allocator<signed char> >, signed char> >\x1b[m\x1b[K\xe2\x80\x99 in a constant expression\n'}
+[4.503583] (autoronto_interview) StderrLine: {'line': b'   77 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[4.503895] (autoronto_interview) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.504667] (autoronto_interview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[4.504906] (autoronto_interview) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:2\x1b[m\x1b[K:\n'}
+[4.505045] (autoronto_interview) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:389:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<std::vector<signed char, std::allocator<signed char> >, signed char> >\x1b[m\x1b[K\xe2\x80\x99 is not literal because:\n'}
+[4.505182] (autoronto_interview) StderrLine: {'line': b'  389 |     class \x1b[01;36m\x1b[Kvector\x1b[m\x1b[K : protected _Vector_base<_Tp, _Alloc>\n'}
+[4.505294] (autoronto_interview) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.505408] (autoronto_interview) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:389:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<std::vector<signed char, std::allocator<signed char> >, signed char> >\x1b[m\x1b[K\xe2\x80\x99 has a non-trivial destructor\n'}
+[4.531260] (-) TimerEvent: {}
+[4.631697] (-) TimerEvent: {}
+[4.668851] (autoronto_interview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Test::solution_callback(const Int8MultiArray&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.669172] (autoronto_interview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:62:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid initialization of reference of type \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<signed char, std::allocator<signed char> >&\x1b[m\x1b[K\xe2\x80\x99 from expression of type \xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.669375] (autoronto_interview) StderrLine: {'line': b'   62 |         std::vector<std::int8_t> oracle = find_indices(\x1b[01;31m\x1b[Kiteration_\x1b[m\x1b[K)\n'}
+[4.669533] (autoronto_interview) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.669915] (autoronto_interview) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:14\x1b[m\x1b[K:\n'}
+[4.670133] (autoronto_interview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/find_indices.hpp:11:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin passing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<signed char, std::allocator<signed char> > find_indices(const std::vector<signed char, std::allocator<signed char> >&, int8_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.670316] (autoronto_interview) StderrLine: {'line': b'   11 |         \x1b[01;36m\x1b[Kconst std::vector<std::int8_t> &input\x1b[m\x1b[K, const std::int8_t target) {\n'}
+[4.670470] (autoronto_interview) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[4.731918] (-) TimerEvent: {}
+[4.832399] (-) TimerEvent: {}
+[4.932934] (-) TimerEvent: {}
+[5.033381] (-) TimerEvent: {}
+[5.133846] (-) TimerEvent: {}
+[5.234356] (-) TimerEvent: {}
+[5.334859] (-) TimerEvent: {}
+[5.439865] (-) TimerEvent: {}
+[5.540358] (-) TimerEvent: {}
+[5.640867] (-) TimerEvent: {}
+[5.741839] (-) TimerEvent: {}
+[5.842342] (-) TimerEvent: {}
+[5.942898] (-) TimerEvent: {}
+[6.043373] (-) TimerEvent: {}
+[6.143842] (-) TimerEvent: {}
+[6.244391] (-) TimerEvent: {}
+[6.344894] (-) TimerEvent: {}
+[6.445379] (-) TimerEvent: {}
+[6.545887] (-) TimerEvent: {}
+[6.646384] (-) TimerEvent: {}
+[6.746871] (-) TimerEvent: {}
+[6.847353] (-) TimerEvent: {}
+[6.947791] (-) TimerEvent: {}
+[7.048235] (-) TimerEvent: {}
+[7.148710] (-) TimerEvent: {}
+[7.249217] (-) TimerEvent: {}
+[7.349725] (-) TimerEvent: {}
+[7.450219] (-) TimerEvent: {}
+[7.550730] (-) TimerEvent: {}
+[7.651218] (-) TimerEvent: {}
+[7.751722] (-) TimerEvent: {}
+[7.852230] (-) TimerEvent: {}
+[7.952704] (-) TimerEvent: {}
+[8.053157] (-) TimerEvent: {}
+[8.153592] (-) TimerEvent: {}
+[8.254072] (-) TimerEvent: {}
+[8.354604] (-) TimerEvent: {}
+[8.455064] (-) TimerEvent: {}
+[8.555491] (-) TimerEvent: {}
+[8.656018] (-) TimerEvent: {}
+[8.756522] (-) TimerEvent: {}
+[8.857009] (-) TimerEvent: {}
+[8.883432] (autoronto_interview) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/davidchus_test.dir/build.make:76: CMakeFiles/davidchus_test.dir/src/test.cpp.o] Error 1\n'}
+[8.883946] (autoronto_interview) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/davidchus_test.dir/all] Error 2\n'}
+[8.884210] (autoronto_interview) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[8.957155] (-) TimerEvent: {}
+[9.057696] (-) TimerEvent: {}
+[9.158167] (-) TimerEvent: {}
+[9.258644] (-) TimerEvent: {}
+[9.359125] (-) TimerEvent: {}
+[9.459557] (-) TimerEvent: {}
+[9.560069] (-) TimerEvent: {}
+[9.660559] (-) TimerEvent: {}
+[9.761035] (autoronto_interview) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/solution.dir/build.make:76: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1\n'}
+[9.761566] (-) TimerEvent: {}
+[9.761857] (autoronto_interview) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/solution.dir/all] Error 2\n'}
+[9.762219] (autoronto_interview) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.764018] (autoronto_interview) CommandEnded: {'returncode': 2}
+[9.814477] (autoronto_interview) JobEnded: {'identifier': 'autoronto_interview', 'rc': 2}
+[9.825550] (-) EventReactorShutdown: {}

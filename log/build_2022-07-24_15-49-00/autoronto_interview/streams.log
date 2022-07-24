@@ -1,0 +1,32 @@
+[0.018s] Invoking command in '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview -- -j4 -l4
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target solution[0m
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target davidchus_test[0m
+[0.089s] [ 25%] [32mBuilding CXX object CMakeFiles/davidchus_test.dir/src/test.cpp.o[0m
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[8.353s] [ 75%] [32m[1mLinking CXX executable davidchus_test[0m
+[8.812s] [ 75%] Built target davidchus_test
+[17.432s] [100%] [32m[1mLinking CXX executable solution[0m
+[18.520s] [100%] Built target solution
+[18.533s] Invoked command in '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview -- -j4 -l4
+[18.568s] Invoking command in '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview
+[18.575s] -- Install configuration: ""
+[18.575s] -- Installing: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/lib/autoronto_interview/solution
+[18.639s] -- Set runtime path of "/home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/lib/autoronto_interview/solution" to ""
+[18.640s] -- Installing: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/lib/autoronto_interview/davidchus_test
+[18.647s] -- Set runtime path of "/home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/lib/autoronto_interview/davidchus_test" to ""
+[18.647s] -- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/ament_index/resource_index/package_run_dependencies/autoronto_interview
+[18.647s] -- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/ament_index/resource_index/parent_prefix_path/autoronto_interview
+[18.648s] -- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/environment/ament_prefix_path.sh
+[18.648s] -- Installing: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/environment/ament_prefix_path.dsv
+[18.649s] -- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/environment/path.sh
+[18.649s] -- Installing: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/environment/path.dsv
+[18.649s] -- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/local_setup.bash
+[18.649s] -- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/local_setup.sh
+[18.650s] -- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/local_setup.zsh
+[18.650s] -- Installing: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/local_setup.dsv
+[18.650s] -- Installing: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/package.dsv
+[18.651s] -- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/ament_index/resource_index/packages/autoronto_interview
+[18.653s] -- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/cmake/autoronto_interviewConfig.cmake
+[18.654s] -- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/cmake/autoronto_interviewConfig-version.cmake
+[18.654s] -- Up-to-date: /home/theda/dev_ws/src/autoronto_interview/install/autoronto_interview/share/autoronto_interview/package.xml
+[18.655s] Invoked command in '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview

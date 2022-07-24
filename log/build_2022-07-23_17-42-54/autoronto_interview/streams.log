@@ -1,0 +1,18 @@
+[0.020s] Invoking command in '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview -- -j4 -l4
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target solution[0m
+[0.097s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[3.460s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/solution.cpp:[m[K In constructor ‘[01m[KSolution::Solution()[m[K’:
+[3.460s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/solution.cpp:38:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kl000ms[m[K’ was not declared in this scope
+[3.460s]    38 |             [01;31m[Kl000ms[m[K, std::bind(&Solution::timer_callback, this));
+[3.461s]       |             [01;31m[K^~~~~~[m[K
+[3.465s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/solution.cpp:[m[K In member function ‘[01m[Kvoid Solution::timer_callback()[m[K’:
+[3.466s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/solution.cpp:59:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msg[m[K’ has not been declared
+[3.466s]    59 |         auto message = [01;31m[Kstd_msg[m[K::msg::Int8MultiArray();
+[3.466s]       |                        [01;31m[K^~~~~~~[m[K
+[3.473s] [01m[K/home/theda/dev_ws/src/autoronto_interview/src/solution.cpp:64:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_info[m[K’ was not declared in this scope
+[3.473s]    64 |             [01;31m[Krclcpp_info[m[K(this->get_logger(), "Publishing: nothing! (%d)", counter++);
+[3.473s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[4.691s] gmake[2]: *** [CMakeFiles/solution.dir/build.make:76: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[4.692s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/solution.dir/all] Error 2
+[4.692s] gmake: *** [Makefile:146: all] Error 2
+[4.694s] Invoked command in '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview -- -j4 -l4

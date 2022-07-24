@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.000598] (autoronto_interview) JobQueued: {'identifier': 'autoronto_interview', 'dependencies': OrderedDict()}
+[0.002024] (autoronto_interview) JobStarted: {'identifier': 'autoronto_interview'}
+[0.014930] (autoronto_interview) JobProgress: {'identifier': 'autoronto_interview', 'progress': 'cmake'}
+[0.017158] (autoronto_interview) JobProgress: {'identifier': 'autoronto_interview', 'progress': 'build'}
+[0.018520] (autoronto_interview) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview', '--', '-j4', '-l4'], 'cwd': '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theda'), ('GIT_ASKPASS', '/home/theda/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/theda'), ('OLDPWD', '/home/theda/dev_ws/src/autoronto_interview'), ('TERM_PROGRAM_VERSION', '1.69.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-dfa4bf56-02a1-48e0-b747-999ec07fe1a3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/theda/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/theda/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'theda'), ('NAME', 'LAPTOP-7OEUJ8HK'), ('WSL_INTEROP', '/run/WSL/141_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/theda/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/home/theda/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Users/theda/AppData/Local/Programs/Python:/mnt/c/Users/theda/AppData/Local/Programs/Python/Scripts:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Users/theda/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/theda/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/theda/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/theda/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/theda/AppData/Local/Microsoft/WindowsApps:/mnt/c/Modeltech_pe_edu_10.4a/win32pe_edu:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2020.2.2/bin:/mnt/c/Program Files/Sublime Text:/mnt/c/Users/theda/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-a6bbc1db54.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/theda/dev_ws/src/autoronto_interview/build/autoronto_interview'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.072491] (autoronto_interview) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target davidchus_test\x1b[0m\n'}
+[0.088421] (autoronto_interview) StdoutLine: {'line': b'[ 50%] Built target solution\n'}
+[0.094903] (autoronto_interview) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/davidchus_test.dir/src/test.cpp.o\x1b[0m\n'}
+[0.096221] (-) TimerEvent: {}
+[0.196610] (-) TimerEvent: {}
+[0.297014] (-) TimerEvent: {}
+[0.397484] (-) TimerEvent: {}
+[0.498023] (-) TimerEvent: {}
+[0.598511] (-) TimerEvent: {}
+[0.699021] (-) TimerEvent: {}
+[0.799704] (-) TimerEvent: {}
+[0.900578] (-) TimerEvent: {}
+[1.001044] (-) TimerEvent: {}
+[1.101667] (-) TimerEvent: {}
+[1.202140] (-) TimerEvent: {}
+[1.302645] (-) TimerEvent: {}
+[1.403186] (-) TimerEvent: {}
+[1.503659] (-) TimerEvent: {}
+[1.604111] (-) TimerEvent: {}
+[1.704607] (-) TimerEvent: {}
+[1.805097] (-) TimerEvent: {}
+[1.905582] (-) TimerEvent: {}
+[2.006024] (-) TimerEvent: {}
+[2.106491] (-) TimerEvent: {}
+[2.206974] (-) TimerEvent: {}
+[2.307448] (-) TimerEvent: {}
+[2.407942] (-) TimerEvent: {}
+[2.508434] (-) TimerEvent: {}
+[2.608973] (-) TimerEvent: {}
+[2.709434] (-) TimerEvent: {}
+[2.809939] (-) TimerEvent: {}
+[2.910436] (-) TimerEvent: {}
+[3.010917] (-) TimerEvent: {}
+[3.111431] (-) TimerEvent: {}
+[3.211931] (-) TimerEvent: {}
+[3.312410] (-) TimerEvent: {}
+[3.412844] (-) TimerEvent: {}
+[3.440757] (autoronto_interview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTest::Test()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.441282] (autoronto_interview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:24:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""ms\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.441579] (autoronto_interview) StderrLine: {'line': b'   24 |             \x1b[01;31m\x1b[K1000ms\x1b[m\x1b[K, std::bind(&Test::timer_callback, this));\n'}
+[3.441887] (autoronto_interview) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.447391] (autoronto_interview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Test::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.447797] (autoronto_interview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:30:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<signed char, std::allocator<signed char> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.448100] (autoronto_interview) StderrLine: {'line': b'   30 |         input_timer_callback(\x1b[01;31m\x1b[Kiteration\x1b[m\x1b[K);\n'}
+[3.448368] (autoronto_interview) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.448645] (autoronto_interview) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.448936] (autoronto_interview) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[Kstd::size_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.449221] (autoronto_interview) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theda/dev_ws/src/autoronto_interview/src/test.cpp:37:62:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid Test::input_timer_callback(std::vector<signed char, std::allocator<signed char> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.449468] (autoronto_interview) StderrLine: {'line': b'   37 |     void input_timer_callback(\x1b[01;36m\x1b[Kconst std::vector<std::int8_t> input_vec\x1b[m\x1b[K) {\n'}
+[3.449655] (autoronto_interview) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.512999] (-) TimerEvent: {}
+[3.613487] (-) TimerEvent: {}
+[3.714031] (-) TimerEvent: {}
+[3.814599] (-) TimerEvent: {}
+[3.915084] (-) TimerEvent: {}
+[4.015576] (-) TimerEvent: {}
+[4.116090] (-) TimerEvent: {}
+[4.216587] (-) TimerEvent: {}
+[4.317148] (-) TimerEvent: {}
+[4.417749] (-) TimerEvent: {}
+[4.518291] (-) TimerEvent: {}
+[4.618943] (-) TimerEvent: {}
+[4.719492] (-) TimerEvent: {}
+[4.819988] (-) TimerEvent: {}
+[4.915184] (autoronto_interview) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/davidchus_test.dir/build.make:76: CMakeFiles/davidchus_test.dir/src/test.cpp.o] Error 1\n'}
+[4.915748] (autoronto_interview) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/davidchus_test.dir/all] Error 2\n'}
+[4.915979] (autoronto_interview) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.917839] (autoronto_interview) CommandEnded: {'returncode': 2}
+[4.920102] (-) TimerEvent: {}
+[4.970871] (autoronto_interview) JobEnded: {'identifier': 'autoronto_interview', 'rc': 2}
+[4.982453] (-) EventReactorShutdown: {}
