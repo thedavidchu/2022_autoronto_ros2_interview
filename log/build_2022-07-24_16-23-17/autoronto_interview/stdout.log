@@ -1,4 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/davidchus_test.dir/src/test.cpp.o[0m
-[ 75%] [32m[1mLinking CXX executable davidchus_test[0m
-[ 75%] Built target davidchus_test
